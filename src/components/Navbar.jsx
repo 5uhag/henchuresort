@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Phone, ShoppingBag } from 'lucide-react';
 
 export default function Navbar() {

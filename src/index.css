@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@700&display=swap');
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Custom CSS variables (optional) */
-:root {
-  --primary: #2C4C3B;
-  --primary-dark: #1B3325;
-  --accent: #D4AF37;
-  --bg: #FDFBF7;
-  --bg-light: #F4EFE6;
+@theme {
+  --color-primary: #2C4C3B;
+  --color-primary-dark: #1B3325;
+  --color-accent: #D4AF37;
+  --color-background: #FDFBF7;
+  --color-background-light: #F4EFE6;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: "Playfair Display", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }

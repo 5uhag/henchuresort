@@ -1,8 +1,7 @@
-import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
-  const heroImage = 'file:///C:/Users/Suhag/.gemini/antigravity/brain/8167660a-4a01-43e9-8bbd-e0d936a40054/henchu_resort_hero_1775573328586.png';
+  const heroImage = 'https://images.unsplash.com/photo-1542224566-6e85f2e6772f?auto=format&fit=crop&q=80&w=1920';
   return (
     <section
       className="relative flex items-center justify-center h-screen bg-cover bg-center"
