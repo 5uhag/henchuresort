@@ -13,20 +13,20 @@ html, body, #root {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   background: var(--color-background);
   color: #0f1724;
-  -webkit-font-smoothing:antialiased;
-  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .font-serif {
   font-family: 'Playfair Display', Georgia, serif;
-}
-
-.hero-overlay {
-  background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.55));
 }
 
 .btn-primary {
@@ -36,4 +36,8 @@ body {
 
 .btn-primary:hover {
   background-color: var(--color-primary-dark);
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
 }
